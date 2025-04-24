@@ -1,7 +1,7 @@
 <?php
 $host = "sql.freedb.tech";
 $user = "freedb_namratha";
-$pass = '&aUpT8W67qTKUHE';  // ✅ Using single quotes to avoid issues with special characters
+$pass = "&aUpT8W67qTKUHE";
 $dbname = "freedb_stockApp";
 $port = 3306;
 
