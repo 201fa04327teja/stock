@@ -1,8 +1,8 @@
 <?php
-$host = 'sql.freedb.tech';
-$user = 'freedb_bvijay';
-$pass = 'JJYGY5$cvF$DygN';
-$dbname = 'freedb_stockApp';
+$host = "sql.freedb.tech";
+$user = "freedb_bvijay";
+$pass = 'JJYGY5$cvF$DygN';  // 🔐 FIXED using single quotes
+$dbname = "freedb_stockApp";
 $port = 3306;
 
 $conn = new mysqli($host, $user, $pass, $dbname, $port);
